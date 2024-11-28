@@ -1,0 +1,83 @@
+body {
+    margin:10px;
+    text-align: center;
+      
+}
+#number {
+    width: 180px;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    background-color: rgb(14, 192, 192);
+  }
+ 
+.checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+form {
+    
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+  }
+
+.text {
+  display: block;
+  margin-top:1px;
+}
+textarea {
+  width: 500px;
+  min-height: 100px;
+  
+}
+.submit_button{
+  background-color: green;
+  color: white;
+}
+#mainForm {
+  display: block;
+  margin: auto;
+  min-width: 500px;
+  max-width: 700px;
+  height: 800px;
+  background-color: white;
+
+}
+#title {
+  background-color: white;
+  color: rgb(0, 113, 161);
+}
+.improvement {
+  display: block;
+  min-width: 500px;
+  max-width: 700px;
+  height: 100px;
+  margin: auto;
+}
+.infos label {
+  display: block; /* Ensures each label starts on a new line */
+  margin-bottom: 10px; /* Space between label and input */
+}
+
+.infos input,
+.infos select {
+  margin-bottom: 7px; /* Space between each input/select element and the next label */
+  width: 100%; /* Optionally set the width */
+}
+#title2{
+  display: block;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+#text {
+  display: block;
+  margin-bottom: 25px;
+}
+

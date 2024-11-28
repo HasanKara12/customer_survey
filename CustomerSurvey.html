@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <div class="background" style="background-image: url('https://images.unsplash.com/photo-1556745753-b2904692b3cd?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); filter: blur(5px); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+    <section id="title">
+        <h1 id="title" style="background-color: white;"> Customer Satisfaction Survey</h1>
+        <div class="body_box">
+            <p id="description">This Customer Satisfaction Survey is designed to gather feedback from customers about their experiences with our products and services. Thank You!</p>
+        </div>
+    </section>
+    <section id="mainForm">
+        <form id="survey-form">
+            <div class="infos">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+                <br />
+                <label id="email-label" for="email">E-mail</label>
+                <input id="email" type="email" name="email" placeholder="Enter your e-mail address" required>
+                <br />
+                <label id="number-label" for="number">Age</label>
+                <input id="number" type="number" max="99" min="10" placeholder="Enter your age" required> 
+                <br />
+                <p id="ask_selector">Would you recommend our services?</p>
+                <select id="dropdown" name="satisfaction" class="form-control" required>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="improvement">
+                <label id="title2">What would you want to be improved at our store?</label>
+                <input name="improvement" value="services_improvement" type="checkbox" class="checkbox"> Employees
+                <input name="improvement" value="services_improvement" type="checkbox" class="checkbox"> Products
+                <input name="improvement" value="services_improvement" type="checkbox" class="checkbox"> Hygiene
+                <input name="improvement" value="services_improvement" type="checkbox" class="checkbox"> Price
+            </div>
+            <div class="text">
+                <label id="text">
+                <textarea name="comments"> Enter more comments here</textarea>
+                </label>
+            </div>
+            <p>Would you visit us again?</p>
+            <input class="survey_form" type="radio" name="radio_button" required value="radioButton"> Yes
+            <input class="survey_form" type="radio" name="radio_button" required value="radioButton"> No
+            <br />
+            <input id="submit" type="submit" style="width: 150px;">
+        </form>
+    </section>
+    <footer style="color: rgb(105, 9, 9);">
+        This site is created for training not real
+    </footer>
+</body>
+</html>
